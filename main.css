@@ -1,0 +1,44 @@
+body {
+	background-color: grey;
+}
+
+.container {
+	width: 600px;
+	height: 500px;
+	margin: 0px auto;
+	padding: 10px 50px 50px;
+	background-color: white;
+	border: 2px solid #cbcbcb;
+}
+
+.container h1 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	padding: 2px 0px;
+	background-color: green;
+}
+
+.container #question {
+	color: blue;
+	font-size: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+	width: 250px;
+	color: white;
+	font-size: 20px;
+	margin: 10px 40px;
+	margin-left: 0;
+	padding: 10px;
+	border: 1px solid #1D3C6A;
+	background-color: blue;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#progress {
+	font-size: 18px;
+}
